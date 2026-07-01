@@ -1,0 +1,12 @@
+.SceneMap {
+  display: grid;
+}
+
+.PlayerContainer {
+  position: absolute;
+  width: 16px;
+  height: 32px;
+  z-index: 10;
+  background-color: red;
+  transform-origin: center center;
+}
