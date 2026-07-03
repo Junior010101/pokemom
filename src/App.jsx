@@ -10,9 +10,10 @@ function App() {
     heightPx: 0,
   });
   const [characterPosition, setCharacterPosition] = useState({ x: 14, y: 15 });
+  const [mapposition, setmapposition] = useState({ x: 0, y: 0});
   const TILE_SIZE = 16;
     useEffect(() => {
-      movim(setCharacterPosition,);
+      movim(setCharacterPosition,setmapposition);
     }, []);
   return (
     <div className="GameCamera">
@@ -21,6 +22,7 @@ function App() {
         style={{
           width: `${mapDimensions.widthPx}px`,
           height: `${mapDimensions.heightPx}px`,
+          transform: `scale(${3})translate3d(${mapposition.x}px, ${mapposition.y}px, 0)`,
         }}
       >
         <Player
