@@ -53,5 +53,4 @@ body {
 
 .World {
   position: absolute;
-  transform: scale(6) translate(45px, 5px);
 }
