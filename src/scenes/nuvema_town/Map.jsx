@@ -2,7 +2,9 @@ import { useEffect } from "react";
 import { MapRenderer } from "../../components/MapRenderer";
 import nuvemaTownTilemap from "./nuvema_town.json";
 
-export const Map = ({ onMapLoaded, tileSize }) => {
+export const Map = ({posX, posY,onMapLoaded, tileSize }) => {
+  const visualX = posX * tileSize * -1;
+  const visualY = posY * tileSize * -1;
   useEffect(() => {
     const { width, height } = nuvemaTownTilemap;
 
@@ -15,8 +17,8 @@ export const Map = ({ onMapLoaded, tileSize }) => {
   }, [onMapLoaded, tileSize]);
 
   return (
-    <>
-      <MapRenderer mapData={nuvemaTownTilemap} tileSize={tileSize} />
-    </>
+    <div style={{transform: `translate3d(${visualX}px, ${visualY}px, 0)`}}>
+      <MapRenderer mapData={nuvemaTownTilemap} tileSize={tileSize}/>
+    </div>
   );
 };

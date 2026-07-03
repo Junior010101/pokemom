@@ -3,7 +3,6 @@ import "./styles.css";
 export const Player = ({ posX, posY, tileSize }) => {
   const visualX = posX * tileSize;
   const visualY = posY * tileSize;
-
   const offsetY = tileSize;
 
   return (
