@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import "./index.css";
-import movim from "./scripts/index.js";
+import movim from "./scripts/movimento.js";
 import { Map } from "./scenes/nuvema_town/Map";
 import { Player } from "./components/Player";
 
@@ -14,7 +14,7 @@ function App() {
 
   const [characterPosition, setCharacterPosition] = useState({
     x: 14,
-    y: 15,
+    y: 18,
   });
     const [cameraSize, setCameraSize] = useState({
     width: 0,
@@ -38,7 +38,8 @@ function App() {
   const visualX = Math.max(Math.min(-(characterPosition.x * TILE_SIZE +TILE_SIZE / 2 -cameraSize.width / (2 * SCALE)),0),-(mapDimensions.widthPx - cameraSize.width / SCALE));
 
   const visualY = Math.max(Math.min(-(characterPosition.y * TILE_SIZE +TILE_SIZE / 2 -cameraSize.height / (2 * SCALE)),0),
-  -(mapDimensions.heightPx - cameraSize.height / SCALE));
+  -(mapDimensions.heightPx - cameraSize.height / SCALE)
+);
 
   useEffect(() => {movim(setCharacterPosition);}, []);
 
@@ -52,8 +53,7 @@ function App() {
           // Ensure you use the variables calculated above
           transform: `scale(${SCALE}) translate3d(${visualX}px, ${visualY}px, 0)`,
           transformOrigin: "top left",
-        }}
-      >
+        }}>
         <Player
           posX={characterPosition.x}
           posY={characterPosition.y}
