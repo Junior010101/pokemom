@@ -33,7 +33,11 @@ function App() {
       });
     }
 
-    movim(setPlayerPosition);
+    const clearMovim = movim(setPlayerPosition);
+
+    return () => {
+      clearMovim();
+    };
   }, []);
 
   const visualX = Math.max(
