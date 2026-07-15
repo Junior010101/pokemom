@@ -132,11 +132,45 @@ npm run dev
 
 ## 👥 Desenvolvido por
 
-| Avatar                                                                       | Nome                 | GitHub                                                 |
-| ---------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------ |
-| <img src="https://avatars.githubusercontent.com/u/274339477?v=4" width="60"> | **João-Vitor**       | [@jotavn-dev](https://github.com/jotavn-dev)           |
-| <img src="https://avatars.githubusercontent.com/u/170953106?v=4" width="60"> | **Lucas Ximenes**    | [@Ximenes2007](https://github.com/Ximenes2007)         |
-| <img src="https://avatars.githubusercontent.com/u/162238592?v=4" width="60"> | **Marcondes_Paixão** | [@Junior010101](https://github.com/Junior010101)       |
-| <img src="https://avatars.githubusercontent.com/u/184113392?v=4" width="60"> | **Marcos**           | [@Reimarcosneto3](https://github.com/Reimarcosneto3)   |
-| <img src="https://avatars.githubusercontent.com/u/211912997?v=4" width="60"> | **Santos**           | [@tgs4ntos](https://github.com/tgs4ntos)               |
-| <img src="https://avatars.githubusercontent.com/u/277160569?v=4" width="60"> | **Layme**            | [@thiagolayme1966](https://github.com/thiagolayme1966) |
+<table>
+  <thead>
+    <tr>
+      <th width="80px">Avatar</th>
+      <th width="1000px">Nome</th>
+      <th width="200px">GitHub</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><picture><img src="https://avatars.githubusercontent.com/u/274339477?v=4" width="60" alt="Avatar João-Vitor"></picture></td>
+      <td><strong>João-Vitor</strong></td>
+      <td><a href="https://github.com/jotavn-dev" target="_blank">@jotavn-dev</a></td>
+    </tr>
+    <tr>
+      <td><picture><img src="https://avatars.githubusercontent.com/u/170953106?v=4" width="60" alt="Avatar Lucas Ximenes"></picture></td>
+      <td><strong>Lucas Ximenes</strong></td>
+      <td><a href="https://github.com/Ximenes2007" target="_blank">@Ximenes2007</a></td>
+    </tr>
+    <tr>
+      <td><picture><img src="https://avatars.githubusercontent.com/u/162238592?v=4" width="60" alt="Avatar Marcondes_Paixão"></picture></td>
+      <td><strong>Marcondes_Paixão</strong></td>
+      <td><a href="https://github.com/Junior010101" target="_blank">@Junior010101</a></td>
+    </tr>
+    <tr>
+      <td><picture><img src="https://avatars.githubusercontent.com/u/184113392?v=4" width="60" alt="Avatar Marcos"></picture></td>
+      <td><strong>Marcos</strong></td>
+      <td><a href="https://github.com/Reimarcosneto3" target="_blank">@Reimarcosneto3</a></td>
+    </tr>
+    <tr>
+      <td><picture><img src="https://avatars.githubusercontent.com/u/211912997?v=4" width="60" alt="Avatar Santos"></picture></td>
+      <td><strong>Santos</strong></td>
+      <td><a href="https://github.com/tgs4ntos" target="_blank">@tgs4ntos</a></td>
+    </tr>
+    <tr>
+      <td><picture><img src="https://avatars.githubusercontent.com/u/277160569?v=4" width="60" alt="Avatar Layme"></picture></td>
+      <td><strong>Layme</strong></td>
+      <td><a href="https://github.com/thiagolayme1966" target="_blank">@thiagolayme1966</a></td>
+    </tr>
+  </tbody>
+</table>
+
