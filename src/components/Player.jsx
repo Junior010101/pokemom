@@ -30,7 +30,9 @@ export const Player = ({ playerPosition, tileSize, fps }) => {
     >
       <CharacterRenderer
         fps={fps}
-        spriteSheetUrl={"\/assets\/static\/hilbert_spritesheet.png"}
+        spriteSheetUrl={
+          "\/assets\/static\/spritesheets\/hilbert_spritesheet.png"
+        }
         spriteSheetWidth={64}
         spriteSheetHeight={256}
         characterWidth={tileSize}

@@ -288,7 +288,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "\/assets\/static\/pier_and_roads.png",
+      "image": "\/assets\/static\/tilesets\/pier_and_roads.png",
       "imageheight": 256,
       "imagewidth": 256,
       "margin": 0,
