@@ -72,7 +72,6 @@
 </pre>
         </td>
         <td>
-<h3>
     <ol>
         <li><strong>Informações do jogo:</strong>
             <ul>
@@ -95,7 +94,6 @@
             </ul>
         </li>
     </ol>
-</h3>
         </td>
     </tr>
 </table>
@@ -117,9 +115,11 @@ git clone https://github.com/Reimarcosneto3/pokemom.git
 cd pokemom
 ```
 
-#### Rodar script de desenvolvimento
+#### Instalar dependencias e rodar script de desenvolvimento
 
 ```bash
+npm install
+
 npm run dev
 ```
 
